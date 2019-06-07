@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SADSAD"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CihazSecimActivity">
+
+    <TextView
+        android:id="@+id/txtKullaniciAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
+        android:text="Merhaba Yusuf Furkan Yücesoy"
+        app:layout_constraintBottom_toTopOf="@+id/btnMc1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnMc1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="118dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginStart="50dp"
+        android:onClick="mzk1"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btnMc3"
+        app:layout_constraintEnd_toStartOf="@+id/btnMc2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtKullaniciAdi"
+        app:srcCompat="@drawable/mc1" />
+
+    <ImageButton
+        android:id="@+id/btnMc2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="118dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginTop="83dp"
+        android:onClick="mzk2"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btnMc4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnMc1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mc2" />
+
+    <ImageButton
+        android:id="@+id/btnMc3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="138dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginStart="50dp"
+        android:onClick="mzk3"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnMc4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMc1"
+        app:srcCompat="@drawable/mc3" />
+
+    <ImageButton
+        android:id="@+id/btnMc4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="138dp"
+        android:layout_marginEnd="47dp"
+        android:onClick="mzk4"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnMc3"
+        app:layout_constraintTop_toBottomOf="@+id/btnMc2"
+        app:srcCompat="@drawable/mc4" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="MFMS10-MC1"
+        app:layout_constraintStart_toStartOf="@+id/btnMc1"
+        app:layout_constraintTop_toBottomOf="@+id/btnMc1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="MFMS10-MC2"
+        app:layout_constraintStart_toStartOf="@+id/btnMc2"
+        app:layout_constraintTop_toBottomOf="@+id/btnMc2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="18dp"
+        android:text="MFMS10-MC3"
+        app:layout_constraintStart_toStartOf="@+id/btnMc3"
+        app:layout_constraintTop_toBottomOf="@+id/btnMc3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="MFMS10-MC4"
+        app:layout_constraintStart_toStartOf="@+id/btnMc4"
+        app:layout_constraintTop_toBottomOf="@+id/btnMc4" />
+
+</android.support.constraint.ConstraintLayout>
